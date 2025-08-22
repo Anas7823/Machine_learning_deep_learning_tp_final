@@ -20,7 +20,7 @@ except FileNotFoundError:
 
 # Créer et charger le modèle
 try:
-    model = tf.keras.models.load_model('model_focal.h5')
+    model = tf.keras.models.load_model('model_reel.h5')
     print("Modèle chargé avec succès!")
 except Exception as e:
     print(f"Erreur lors du chargement du modèle: {e}")
